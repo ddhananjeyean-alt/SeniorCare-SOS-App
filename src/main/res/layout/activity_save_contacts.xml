@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#080808"
+    android:paddingBottom="220dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <!-- TITLE -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Emergency Contacts"
+            android:textColor="#E0F2FE"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="24dp"/>
+
+        <!-- CONTACT 1 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CONTACT 01"
+            android:textColor="#38BDF8"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/etName1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name"
+            android:textColorHint="#64748B"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/bg_futuristic_input"
+            android:padding="14dp"
+            android:layout_marginBottom="10dp"/>
+
+        <EditText
+            android:id="@+id/etPhone1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Phone Number"
+            android:inputType="phone"
+            android:textColorHint="#64748B"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/bg_futuristic_input"
+            android:padding="14dp"
+            android:layout_marginBottom="20dp"/>
+
+        <!-- CONTACT 2 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CONTACT 02"
+            android:textColor="#38BDF8"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/etName2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name"
+            android:textColorHint="#64748B"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/bg_futuristic_input"
+            android:padding="14dp"
+            android:layout_marginBottom="10dp"/>
+
+        <EditText
+            android:id="@+id/etPhone2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Phone Number"
+            android:inputType="phone"
+            android:textColorHint="#64748B"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/bg_futuristic_input"
+            android:padding="14dp"
+            android:layout_marginBottom="20dp"/>
+
+        <!-- CONTACT 3 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CONTACT 03"
+            android:textColor="#38BDF8"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/etName3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name"
+            android:textColorHint="#64748B"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/bg_futuristic_input"
+            android:padding="14dp"
+            android:layout_marginBottom="10dp"/>
+
+        <EditText
+            android:id="@+id/etPhone3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Phone Number"
+            android:inputType="phone"
+            android:textColorHint="#64748B"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/bg_futuristic_input"
+            android:padding="14dp"
+            android:layout_marginBottom="20dp"/>
+
+        <!-- UNLOCK ADVANCED CONTACTS -->
+        <TextView
+            android:id="@+id/txtUnlock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Unlock Advanced Contacts"
+            android:textColor="#FF1744"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp"/>
+
+        <!-- HIDDEN CONTACTS 4 & 5 -->
+        <LinearLayout
+            android:id="@+id/layoutAdvancedContacts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <!-- CONTACT 4 -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CONTACT 04"
+                android:textColor="#38BDF8"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:id="@+id/etName4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Name"
+                android:textColorHint="#64748B"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/bg_futuristic_input"
+                android:padding="14dp"
+                android:layout_marginBottom="10dp"/>
+
+            <EditText
+                android:id="@+id/etPhone4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Phone Number"
+                android:inputType="phone"
+                android:textColorHint="#64748B"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/bg_futuristic_input"
+                android:padding="14dp"
+                android:layout_marginBottom="20dp"/>
+
+            <!-- CONTACT 5 -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CONTACT 05"
+                android:textColor="#38BDF8"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:id="@+id/etName5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Name"
+                android:textColorHint="#64748B"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/bg_futuristic_input"
+                android:padding="14dp"
+                android:layout_marginBottom="10dp"/>
+
+            <EditText
+                android:id="@+id/etPhone5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Phone Number"
+                android:inputType="phone"
+                android:textColorHint="#64748B"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/bg_futuristic_input"
+                android:padding="14dp"
+                android:layout_marginBottom="30dp"/>
+        </LinearLayout>
+
+        <!-- SAVE BUTTON -->
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="SAVE CONTACTS"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/bg_cyber_red_button"
+            android:elevation="12dp"
+            android:stateListAnimator="@anim/glow_pulse"/>
+
+    </LinearLayout>
+</ScrollView>

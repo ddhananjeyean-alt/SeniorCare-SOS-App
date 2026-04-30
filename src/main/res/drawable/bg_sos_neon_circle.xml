@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Glow -->
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="#33FF1744"/>
+        </shape>
+    </item>
+
+    <!-- Main Circle -->
+    <item android:inset="12dp">
+        <shape android:shape="oval">
+            <solid android:color="#FF1744"/>
+        </shape>
+    </item>
+
+</layer-list>
