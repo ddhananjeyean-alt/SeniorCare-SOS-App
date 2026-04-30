@@ -15,5 +15,14 @@ An Android application designed to provide emergency assistance for senior citiz
 ## 📱 Project Structure
 - app/src → Main source code
 
+- ## 📸 Screenshots
+
+### Home Screen
+![Home](03.jpg)
+
+### SOS Button
+![SOS](03.jpg)
+
+
 ## 👨‍💻 Author
 Dhananjeyean
